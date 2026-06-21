@@ -29,21 +29,6 @@ A premium, interactive portfolio website built with Next.js 16, TypeScript, Tail
 - Interactive timeline for experience
 - Glassmorphism design with premium gradients
 
-## Getting Started
-
-```bash
-npm install
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-## Build
-
-```bash
-npm run build
-npm start
-```
 
 ## Project Structure
 
@@ -70,33 +55,3 @@ src/
 │   └── constants.ts  # Site config, nav items
 └── types/            # TypeScript interfaces
 ```
-
-## Deployment
-
-### Vercel
-
-```bash
-npm i -g vercel
-vercel
-```
-
-### Netlify
-
-1. Connect your Git repository to Netlify
-2. Build command: `npm run build`
-3. Output directory: `.next`
-4. Publish directory: `public`
-
-## Customization
-
-Edit `src/lib/data/resume.ts` to update all content — personal info, experience, projects, skills, education, certifications, and social links.
-
-## Placeholder Assets
-
-- **Resume PDF:** Replace `https://flowcv.com/resume/dok2182n94` with the actual resume
-- **Profile Image:** The hero section shows an initials avatar — replace with a real image in the About section
-- **Project Screenshots:** Project cards use gradient placeholders — update with actual screenshots
-
-## Environment Variables
-
-No required environment variables for the basic portfolio. Add your own for contact form backend integration.
